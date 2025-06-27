@@ -49,7 +49,7 @@ random_dns('byu.edu', 'A')
 random_dns('berkeley.edu', 'A')
 random_dns('cmu.edu', 'A')
 random_dns('stanford.edu', 'A')
-random_dns('k-staterandomrandom.edu', 'A')
+random_dns('k-state.edu', 'A')
 
 # question 01
 q1headers = {'User-Agent': 'sxm-android/7.10.0 Amazon/KFTUWI Android/11'}
@@ -173,11 +173,3 @@ except:
     print("Unable to generate QUESTION 15")
 
 sys.exit()
-
-# sources
-# https://stackoverflow.com/questions/10606133/sending-user-agent-using-requests-library-in-python
-# https://explore.whatismybrowser.com/
-# https://stackoverflow.com/questions/13842116/how-do-we-get-txt-cname-and-soa-records-from-dnspython
-# https://www.geeksforgeeks.org/python/sending-dns-request-responses-with-python/
-# https://stackoverflow.com/questions/3898363/set-specific-dns-server-using-dns-resolver-pythondns
-# https://superuser.com/questions/1213116/are-there-well-known-http-only-sites
