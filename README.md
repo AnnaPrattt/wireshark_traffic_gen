@@ -10,7 +10,7 @@ This **Wireshark Traffic Generation** script automatatically generates network t
 # Usage
 Intial configuration:
 ```bash
-git clone <insert link>
+git clone https://github.com/AnnaPrattt/wireshark_traffic_gen.git
 pip3 install -r requirements.txt
 python3 generator.py
 ```
